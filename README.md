@@ -40,6 +40,11 @@ The model incorporates thresholds for revolution and satisfaction for each agent
 ### Visualizations
 The repository includes visual representations of the network, showcasing agent interactions, influence distribution, and the evolution of revolutionary activity.
 
+### Graphical Representation
+The following graph illustrates the evolution of the revolutionary agents and satisfaction, alongside the evolution of property rights. This visualization supports our hypothesis that the evolution of institutions is significantly influenced by the cultural context:
+
+![Graph of Evolution](Results/trilpetterevosatis_step_4999.png)
+
 ## Usage
 
 ### Requirements
