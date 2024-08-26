@@ -52,7 +52,12 @@ The following graph illustrates the evolution of the revolutionary agents and sa
 - Mesa library
 
 ### Running the Model
-Clone the repository and run the simulation using the provided Python scripts. Detailed instructions are available in the [README](README.md).
+Clone the repository and run the simulation using the provided Python scripts.
+
+### Citation
+If you use this model or code in your research or project, please cite it by referencing the following:
+- **Name**: Octavien Maury
+- **Email**: Octavien.Maury@etu.univ-paris1.fr
 
 ## Conclusion
 
