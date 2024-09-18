@@ -2,6 +2,8 @@
 
 ## Overview
 
+**WORK IN PROGRESS**
+
 This repository hosts a Python-based Agent-Based Model (ABM) designed to explore the relationship between cultural context and institutional change. There are two versions of the model:
 
 - **`model.py`**: A basic version of the model.
@@ -57,9 +59,9 @@ The following graph from **`model.py`** illustrates the evolution of the revolut
 
 The following graphs from **`modelgini.py`** illustrate the evolution of the Gini coefficient and the evolution of revolutionary agents and satisfaction, alongside the evolution of property rights. These two visualizations show that over time, with the spread of information and knowledge, there is a dynamic of revolution and a decreasing concentration of power.
 
-![Graph of Evolution **`modelgini.py`**](Results/Screenshot_2024-09-18_at_15.13.39.png)
+![Graph of Evolution **`modelgini.py`**](Results/EvolutionToutGINI.png)
 
-![Graph of Gini](Results/Screenshot_2024-09-18_at_15.14.03.png)
+![Graph of Gini](Results/GINI.png)
 
 ## Usage
 
