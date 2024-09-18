@@ -2,7 +2,17 @@
 
 ## Overview
 
-This repository hosts a Python-based Agent-Based Model (ABM) designed to explore the relationship between cultural context and institutional change. The model simulates how knowledge dissemination among different societal classes can drive the transition from extractive to inclusive institutions. By coupling ABM with network analysis, the model provides insights into the mechanisms of revolution and the issuance of property rights.
+This repository hosts a Python-based Agent-Based Model (ABM) designed to explore the relationship between cultural context and institutional change. There are two versions of the model:
+
+- **`model.py`**: A basic version of the model.
+- **`modelgini.py`**: A more advanced version with additional features.
+
+All information in this README pertains to both models, but `modelgini.py` includes a more detailed evolution of thresholds and incorporates additional metrics.
+
+### Advanced Features in `modelgini.py`
+The `modelgini.py` version introduces:
+1. **Gini Coefficient**: Measures the distribution of influence among agents, indicating whether influence is concentrated or distributed.
+2. **Property Rights Dynamics**: Property rights now impact individual wealth when they exceed the number of Nobles. Increased wealth affects the thresholds for revolutionary activity and satisfaction, with higher wealth leading to a lower revolutionary threshold and a higher satisfaction threshold.
 
 ## Key Concepts
 
@@ -25,7 +35,7 @@ The institution, represented as an agent, is central to the network and interact
 Agents interact through a network, where the exchange of knowledge can lead to shifts in satisfaction and revolutionary tendencies. The model calculates influence based on these interactions, with a particular focus on how Innovators spread knowledge and how this affects the likelihood of revolution.
 
 ### Revolution and Property Rights
-The model incorporates thresholds for revolution and satisfaction for each agent, influenced by knowledge levels and the distribution of property rights. When the number of revolutionaries surpasses a certain threshold, the institution may respond by issuing property rights, simulating a shift towards inclusivity.
+The model incorporates thresholds for revolution and satisfaction for each agent, influenced by knowledge levels and the distribution of property rights. In `modelgini.py`, when the number of revolutionaries surpasses a certain threshold, the institution may respond by issuing property rights, simulating a shift towards inclusivity. Increased wealth from property rights affects revolutionary and satisfaction thresholds.
 
 ### Simulation Details
 - **Iterations**: The model runs for 5000 iterations, simulating the long-term evolution of the society.
@@ -41,9 +51,15 @@ The model incorporates thresholds for revolution and satisfaction for each agent
 The repository includes visual representations of the network, showcasing agent interactions, influence distribution, and the evolution of revolutionary activity.
 
 ### Graphical Representation
-The following graph illustrates the evolution of the revolutionary agents and satisfaction, alongside the evolution of property rights. This visualization supports our hypothesis that the evolution of institutions is significantly influenced by the cultural context:
+The following graph from **`model.py`** illustrates the evolution of the revolutionary agents and satisfaction, alongside the evolution of property rights. This visualization supports our hypothesis that the evolution of institutions is significantly influenced by the cultural context:
 
-![Graph of Evolution](Results/trilpetterevosatis_step_4999.png)
+![Graph of Evolution **`model.py`**](Results/trilpetterevosatis_step_4999.png)
+
+The following graphs from **`modelgini.py`** illustrate the evolution of the Gini coefficient and the evolution of revolutionary agents and satisfaction, alongside the evolution of property rights. These two visualizations show that over time, with the spread of information and knowledge, there is a dynamic of revolution and a decreasing concentration of power.
+
+![Graph of Evolution **`modelgini.py`**](Results/Screenshot_2024-09-18_at_15.13.39.png)
+
+![Graph of Gini](Results/Screenshot_2024-09-18_at_15.14.03.png)
 
 ## Usage
 
