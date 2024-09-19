@@ -36,6 +36,10 @@ The institution, represented as an agent, is central to the network and interact
 ### Interaction and Influence
 Agents interact through a network, where the exchange of knowledge can lead to shifts in satisfaction and revolutionary tendencies. The model calculates influence based on these interactions, with a particular focus on how Innovators spread knowledge and how this affects the likelihood of revolution.
 
+The following graph from **`model.py`** illustrates the representation of the model.
+
+![Network graph](Results/newplot-4.png)
+
 ### Revolution and Property Rights
 The model incorporates thresholds for revolution and satisfaction for each agent, influenced by knowledge levels and the distribution of property rights. In `modelgini.py`, when the number of revolutionaries surpasses a certain threshold, the institution may respond by issuing property rights, simulating a shift towards inclusivity. Increased wealth from property rights affects revolutionary and satisfaction thresholds.
 
