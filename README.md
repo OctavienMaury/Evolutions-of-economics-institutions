@@ -79,7 +79,7 @@ Clone the repository and run the simulation using the provided Python scripts.
 ### Citation
 If you use this model or code in your research or project, please cite it by referencing the following:
 - **Name**: Octavien Maury
-- **Email**: Octavien.Maury@etu.univ-paris1.fr
+- **Email**: Octavien.Maury@assas-univeriste.fr
 
 ## Conclusion
 
